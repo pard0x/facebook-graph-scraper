@@ -4,18 +4,6 @@ import json
 import sqlite3 as lite
 from optparse import OptionParser
 
-# This is FB scraper script, I have wrote all functions that I know of right now to start.
-# I SHOULD learn the FB API better so I can enhance this script to be useful
-# I MUST finish the option to DB the data, with all the things that I have finished by now.
-# every other addition to the script I'll need to add DB insert as well...
-#
-# From now on it is mine implementation.
-# classes: db, and every scrape option I'll write (person, page, group)
-# 
-
-#
-#
-#
 
 class KEY:
     def __init__(key):
@@ -28,7 +16,6 @@ class KEY:
     def get():
         return self.key
 
-# DB: Cannot use authentication with pysqlite, will need to use crypto later.
 class DB:
     # This constructor will take a dict of configuration
     # if no db exists it will be created and ask for creds...
