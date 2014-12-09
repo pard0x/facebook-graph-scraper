@@ -141,7 +141,7 @@ def main():
     (options, args) = parser.parse_args()
     
     # list of pages => the end of URL
-    list_pages = ["AkbInternetSolutions", "ALDI.USA", "pythonlang"]
+    list_pages = ["Walmart", "ALDI.USA", "pythonlang"]
     graph_url = "http://graph.facebook.com/"
     
     last_crawl = datetime.datetime.now() - datetime.timedelta(weeks=1)
